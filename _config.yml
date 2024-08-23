@@ -21,7 +21,7 @@ repository               : "bylore/bylore.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile-20240823.png"
+  avatar           : "profile-20240823-1.png"
   name             : "Yong Zhang"
   pronouns         : # example: "she/her"  
   bio              : "Assistant Professor and PhD. in Solid Mechanics"
