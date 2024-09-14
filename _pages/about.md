@@ -21,4 +21,4 @@ Please don't hesitate to contact me for potential communication and collaboratio
 
 I am also looking for motivated master students. So if you are interested in my research and would like to work with me, please also feel free to reach out!
 
-My email address: yong_zhang@tongji.edu.cn.
+My email address: <yong_zhang@tongji.edu.cn>.
