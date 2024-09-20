@@ -15,8 +15,8 @@
   }
 
   a {
-    text-decoration: underline;
-    //text-decoration: none;
+    //text-decoration: underline;
+    text-decoration: none;
 
     &:hover {
       text-decoration: underline;
@@ -45,7 +45,6 @@
   font-family: $sans-serif-narrow;
   font-weight: normal;
   font-size: 20px;
-  text-decoration: none;
 
   a + a {
     opacity: 0.5;
@@ -63,7 +62,8 @@
 
 .archive__item-excerpt {
   margin-top: 0;
-  font-size: $type-size-6;
+  //font-size: $type-size-6;
+   font-size: $type-size-5;
 
   & + p {
     text-indent: 0;
