@@ -43,7 +43,6 @@
   margin-bottom: 0.25em;
   font-family: $sans-serif-narrow;
   font-weight: normal;
-  font-size: 32px;
 
   a + a {
     opacity: 0.5;
@@ -82,7 +81,7 @@
   }
 
   .archive__item-title {
-    text-decoration: none;
+    text-decoration: underline;
   }
 }
 
