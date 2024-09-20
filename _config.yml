@@ -37,7 +37,7 @@ author:
   orcid            : # URL
   semantic         : # URL
   pubmed           : # URL
-  researchgate     : # URL
+  researchgate     : "https://www.researchgate.net/profile/Yong-Zhang-88"
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
@@ -57,7 +57,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "yong-zhang-95512632a"
+  linkedin         : #"yong-zhang-95512632a"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
