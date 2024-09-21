@@ -44,7 +44,7 @@
   margin-bottom: 0.25em;
   font-family: $sans-serif-narrow;
   font-weight: normal;
-  font-size: 20px;
+  //font-size: 20px; added by Yong
 
   a + a {
     opacity: 0.5;
@@ -62,8 +62,8 @@
 
 .archive__item-excerpt {
   margin-top: 0;
-  //font-size: $type-size-6;
-   font-size: $type-size-6p;
+  font-size: $type-size-6;
+  //font-size: $type-size-6p; //added by Yong
 
   & + p {
     text-indent: 0;
