@@ -11,18 +11,18 @@ redirect_from:
 
 Education
 ======
-* **Ph.D in Solid Mechanics, Shanghai Jiaotong University, 2020**
-* **B.S. in Mechanical Engineering, Beihang University, 2014**
+* Ph.D in Solid Mechanics, Shanghai Jiaotong University, 2020
+* B.S. in Mechanical Engineering, Beihang University, 2014
 
 Work experience
 ======
-* **2022.09-present: Assistant Professor**
-  * **Tongji University**
+* 2022.09-present: Assistant Professor
+  * Tongji University
 
-* **2020.07-2022.06: Postdoctoral Researcher**
-  * **Zhejiang University**
+* 2020.07-2022.06: Postdoctoral Researcher
+  * Zhejiang University
   <!--* Duties included: Merging pull requests-->
-  * **Supervisor: Professor Jie Wang**
+  * Supervisor: Professor Jie Wang
   
 <!--Skills
 ======
