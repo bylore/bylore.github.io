@@ -9,3 +9,5 @@ location: "Shanghai, China"
 ---
 
 Graduate course at Tongji University, Spring 2026.
+
+This course introduces the fundamentals of the three major computational methods: finite difference, finite element, and finite volume methods, with emphasis on error analysis, convergence, and stability. It also connects to scientific frontiers by covering emerging formulations such as nonlocal integral equations, meshfree methods and PINNs.
