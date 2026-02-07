@@ -4,7 +4,7 @@ collection: teaching
 type: "Graduate course"
 permalink: /teaching/2026-spring-teaching-1
 venue: "Tongji University"
-date: 2026-03-01
+date: 2026-01-01
 location: "Shanghai, China"
 ---
 
