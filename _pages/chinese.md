@@ -18,4 +18,4 @@ author_profile: true
 
 如果你有兴趣与我开展合作交流，也欢迎与我联系。
 
-我的电子邮箱地址为：<yong_zhang@tongji.edu.cn>；我的办公地址为同济大学彰武校区东大楼407。
+我的电子邮箱地址为：<yong_zhang@tongji.edu.cn>；我的办公地址为同济大学嘉定校区迩楼。
