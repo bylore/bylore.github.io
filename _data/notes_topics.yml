@@ -4,28 +4,11 @@
     - "Integral-to-differential limit"
     - "Configurational forces"
 
-- topic: "Peridynamics"
+- topic: "Variational Principles"
   items:
-    - "State-based formulation"
-    - "Correspondence model"
+    - "xxx"
 
-- topic: "PDDO / Generalized Operators"
+- topic: "Configurational Forces"
   items:
-    - "Polynomial reconstruction"
-    - "Weight functions"
-
-- topic: "Phase-field"
-  items:
-    - "Variational formulation"
-    - "Fracture"
-    - "Glass vs crystallization"
-
-- topic: "Mathematics"
-  items:
-    - "Variational principles"
-    - "Functional analysis notes"
-
-- topic: "AI / Computational Tools"
-  items:
-    - "MOOSE implementation"
-    - "Symbolic derivation workflows"
+    - "xxx"
+    - "xxx"
