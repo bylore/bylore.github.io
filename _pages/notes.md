@@ -9,7 +9,6 @@ This section contains structured technical notes, including derivations, theoret
 
 {% for section in site.data.notes_topics %}
 <h2>{{ section.topic }}</h2>
-<hr />
 
 {% if section.items and section.items.size > 0 %}
 {% for item in section.items %}
