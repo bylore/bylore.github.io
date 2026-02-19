@@ -9,7 +9,7 @@ redirect_from:
 ---
 ## About
 
-I work on the mechanics of interface and defect evolution, with a focus on nonlocal theories and multiphysics coupling. My research integrates peridynamics, generalized nonlocal operators, and phase-field methods, with an emphasis on their variational structure and theoretical connections.
+I work on the mechanics of interface and defect evolution, with a focus on nonlocal theories and multiphysics coupling. My research integrates peridynamics, generalized nonlocal operators, phase-field methods, configurational forces with an emphasis on their variational structure and theoretical connections and also their engineering applications.
 
 ---
 
