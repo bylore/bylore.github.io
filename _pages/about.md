@@ -1,42 +1,76 @@
 ---
 permalink: /
-title: "Welcome to my personal academic pages!"
+title: ""
+layout: single
 author_profile: true
-redirect_from: 
+classes: homepage
+redirect_from:
   - /about/
   - /about.html
 ---
 
-Hi, I am Yong Zhang, currently working as an Assistant Professor at [School of Aerospace Engineering and Applied Mechanics](https://aero-mech.tongji.edu.cn/English/list.htm) at [Tongji University](https://en.tongji.edu.cn/p/#/). I was supported by the [Chenguang Program](http://www.shedf.org.cn/html/chenguangjihua_jianjie.html) of Shanghai Education Development Foundation and Shanghai Municipal Education Commission. As the Principal Investigator (PI), I am leading two projects supported by the National Natural Science Foundation of China. Prior to joining Tongji, I worked as a post-doc researcher in the group lead by Professor [Jie Wang](https://person.zju.edu.cn/en/jiewang#0). Before that, I obtained my doctoral degree in Mechanics at [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/) in China, under the supervision of Professor [Pizhong Qiao](https://scholar.google.com/citations?user=Rb_idV0AAAAJ&hl=zh-TW) I got my bachelor's degree at School of Mechanical Engineering & Automation at Beihang University.
+## About
 
-My main research interests lie in the functional and failure behaviors of smart/composite materials as well as the corresponding computational models and methods, specifically including
-* [Peridynamics](https://en.wikipedia.org/wiki/Peridynamics) theories and methods for fracture of solids;
-* [Phase field modeling](https://en.wikipedia.org/wiki/Phase-field_model) for microstructure evolution (crack propagation, dielectric breakdown, dendrite growth, ferroelectric domain switching et. al.);
-* Functional and failure behaviors of smart/composite materials in multiphysics environment;
-* Application of artificial intelligence methods for material functional and failure behaviors.
+I work on the mechanics of interface and defect evolution, with a focus on nonlocal theories and multiphysics coupling. My research integrates peridynamics, generalized nonlocal operators, and phase-field methods, with an emphasis on their variational structure and theoretical connections.
 
-For more information please find my CV [here](https://yongzh.space/cv/).
+---
 
-Please don't hesitate to contact me for potential communication and collaboration. 
+## Research Map
 
-I am also looking for motivated master students. So if you are interested in my research and would like to work with me, please also feel free to reach out!
-
-My email address: <yong_zhang@tongji.edu.cn>.
-
-## Timeline
-
-<div class="notice--primary" markdown="1">
-This section provides an overview of recent updates and activities on my homepage.
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;">
+  <div class="notice--primary" style="margin:0;">
+    <h3 style="margin-top:0;">Nonlocal Mechanics</h3>
+    <ul>
+      <li>Peridynamics (bond-based, state-based, correspondence models)</li>
+      <li>Generalized nonlocal operators (PDDO, polynomial reconstruction)</li>
+      <li>Integral-to-differential connections via asymptotic expansion</li>
+    </ul>
+  </div>
+  <div class="notice--info" style="margin:0;">
+    <h3 style="margin-top:0;">Phase Field Methods</h3>
+    <ul>
+      <li>Phase-field fracture</li>
+      <li>Microstructure evolution</li>
+    </ul>
+  </div>
+  <div class="notice--success" style="margin:0;">
+    <h3 style="margin-top:0;">Configurational Forces</h3>
+    <ul>
+      <li>Variational structure of configurational forces</li>
+      <li>Configurational forces in nonlocal systems</li>
+    </ul>
+  </div>
 </div>
 
-{% assign timeline_posts = site.posts | sort: "date" | reverse %}
-{% if timeline_posts.size > 0 %}
-<ul>
-{% for post in timeline_posts limit: 6 %}
-  <li><strong>{{ post.date | date: "%Y-%m-%d" }}</strong> — <a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
-{% endfor %}
-</ul>
-{% else %}
-<p>No recent updates at the moment. Please check back later.</p>
-{% endif %}
+---
 
+## Key Questions
+
+* How can integral nonlocal models be systematically connected to differential operators?
+* Can configurational forces be rigorously defined in peridynamics?
+* What is the unified variational structure behind phase-field and nonlocal models?
+* How do interface kinetics interact with nonlocal elasticity?
+
+---
+
+## Start Here
+
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:0.8rem;">
+  <a class="btn btn--primary" href="{{ '/notes/' | relative_url }}">Notes</a>
+  <a class="btn btn--primary" href="{{ '/publications/' | relative_url }}">Publications</a>
+  <a class="btn btn--primary" href="{{ '/cv/' | relative_url }}">CV</a>
+</div>
+
+---
+
+## Notes
+
+This section contains structured technical notes, including derivations, theoretical connections, and research ideas across mechanics, mathematics, and related fields.
+
+---
+
+## Recent Updates
+
+{% for post in site.posts limit:5 %}
+* [{{ post.title }}]({{ post.url | relative_url }})
+{% endfor %}
