@@ -22,3 +22,21 @@ Please don't hesitate to contact me for potential communication and collaboratio
 I am also looking for motivated master students. So if you are interested in my research and would like to work with me, please also feel free to reach out!
 
 My email address: <yong_zhang@tongji.edu.cn>.
+
+## Timeline
+
+<div class="notice--primary" markdown="1">
+这里汇总了我主页上的最新动态与更新。
+</div>
+
+{% assign timeline_posts = site.posts | sort: "date" | reverse %}
+{% if timeline_posts.size > 0 %}
+<ul>
+{% for post in timeline_posts limit: 6 %}
+  <li><strong>{{ post.date | date: "%Y-%m-%d" }}</strong> — <a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+{% else %}
+<p>近期暂无更新，欢迎稍后再来查看。</p>
+{% endif %}
+
