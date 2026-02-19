@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-<div style="display:grid;grid-template-columns:minmax(0,1fr) minmax(220px,260px);gap:1rem;align-items:start;">
+<div class="home-layout" style="display:grid;grid-template-columns:minmax(0,1fr) minmax(220px,260px);gap:1rem;align-items:start;">
   <div>
     <p style="font-size:1.05rem;margin-bottom:0.75rem;">
       <em>Knowing how to calculate something is not the same as understanding it.</em> — <span style="font-style:normal;">Frank Wilczek</span>
@@ -69,36 +69,122 @@ redirect_from:
     </div>
   </div>
 
-  <aside style="position:sticky;top:1rem;border:1px solid #e5e5e5;border-radius:8px;padding:0.85rem;background:#fafafa;font-size:0.92rem;">
-    <h3 style="margin-top:0;margin-bottom:0.25rem;">Recent Updates</h3>
-    <p style="font-size:0.82rem;margin-top:0;color:#666;">Timeline (newest first)</p>
-    <ol style="list-style:none;margin:0;padding:0;border-left:2px solid #d7d7d7;">
-      <li style="position:relative;padding:0 0 0.8rem 0.85rem;">
-        <span style="position:absolute;left:-0.36rem;top:0.3rem;width:0.62rem;height:0.62rem;border-radius:50%;background:#2563eb;"></span>
-        <div style="font-size:0.78rem;color:#666;">2026-02-19</div>
-        <div><strong>New note published: Nonlocal strain measure</strong></div>
-        <div style="font-size:0.86rem;">A short update example for recent progress in learning, writing, or research.</div>
-        <details style="margin-top:0.35rem;">
-          <summary style="cursor:pointer;color:#2563eb;">Show more</summary>
-          <p style="margin:0.35rem 0 0;">Longer updates can be collapsed by default. Click to expand and read the full content directly from this timeline.</p>
+  <aside class="recent-updates">
+    <h3>Recent Updates</h3>
+    <p class="recent-updates__subhead">Timeline (newest first)</p>
+    <ol>
+      <li>
+        <span class="recent-updates__dot recent-updates__dot--new"></span>
+        <div class="recent-updates__date">2026-02-19</div>
+        <div class="recent-updates__title">New note published: Nonlocal strain measure</div>
+        <div class="recent-updates__desc">A short update example for recent progress in learning, writing, or research.</div>
+        <details>
+          <summary>Show more</summary>
+          <p>Longer updates can be collapsed by default. Click to expand and read the full content directly from this timeline.</p>
         </details>
-        <div style="margin-top:0.35rem;"><a href="{{ '/notes/nonlocal-strain-measure/' | relative_url }}">Open note</a></div>
+        <div class="recent-updates__link"><a href="{{ '/notes/nonlocal-strain-measure/' | relative_url }}">Open note</a></div>
       </li>
-      <li style="position:relative;padding:0 0 0.8rem 0.85rem;">
-        <span style="position:absolute;left:-0.36rem;top:0.3rem;width:0.62rem;height:0.62rem;border-radius:50%;background:#9ca3af;"></span>
-        <div style="font-size:0.78rem;color:#666;">2024-09-24</div>
-        <div>Homepage layout improved, and future updates will appear in this timeline.</div>
+      <li>
+        <span class="recent-updates__dot"></span>
+        <div class="recent-updates__date">2024-09-24</div>
+        <div class="recent-updates__title">Homepage layout improved, and future updates will appear in this timeline.</div>
       </li>
-      <li style="position:relative;padding:0 0 0.15rem 0.85rem;">
-        <span style="position:absolute;left:-0.36rem;top:0.3rem;width:0.62rem;height:0.62rem;border-radius:50%;background:#9ca3af;"></span>
-        <div style="font-size:0.78rem;color:#666;">2024-01-01</div>
-        <div>Older updates will continue to be listed below.</div>
+      <li>
+        <span class="recent-updates__dot"></span>
+        <div class="recent-updates__date">2024-01-01</div>
+        <div class="recent-updates__title">Older updates will continue to be listed below.</div>
       </li>
     </ol>
   </aside>
 </div>
 
 <style>
+.home-layout .recent-updates {
+  position: sticky;
+  top: 1rem;
+  padding: 0.25rem 0 0;
+  font-size: 0.9rem;
+}
+
+.home-layout .recent-updates h3 {
+  margin: 0;
+  font-size: 1.02rem;
+  font-weight: 600;
+}
+
+.home-layout .recent-updates__subhead {
+  margin: 0.15rem 0 0.5rem;
+  font-size: 0.74rem;
+  letter-spacing: 0.01em;
+  color: #7a7a7a;
+}
+
+.home-layout .recent-updates ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-left: 1px solid #e2e2e2;
+}
+
+.home-layout .recent-updates li {
+  position: relative;
+  padding: 0 0 0.58rem 0.72rem;
+}
+
+.home-layout .recent-updates li:last-child {
+  padding-bottom: 0.12rem;
+}
+
+.home-layout .recent-updates__dot {
+  position: absolute;
+  left: -0.28rem;
+  top: 0.26rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: #b8b8b8;
+}
+
+.home-layout .recent-updates__dot--new {
+  background: #2563eb;
+}
+
+.home-layout .recent-updates__date {
+  margin-bottom: 0.05rem;
+  font-size: 0.72rem;
+  color: #868686;
+}
+
+.home-layout .recent-updates__title {
+  font-size: 0.84rem;
+  line-height: 1.35;
+  color: #2d2d2d;
+  font-weight: 500;
+}
+
+.home-layout .recent-updates__desc,
+.home-layout .recent-updates p {
+  margin: 0.18rem 0 0;
+  font-size: 0.78rem;
+  line-height: 1.35;
+  color: #5d5d5d;
+}
+
+.home-layout .recent-updates details {
+  margin-top: 0.2rem;
+}
+
+.home-layout .recent-updates summary {
+  cursor: pointer;
+  color: #2563eb;
+  font-size: 0.77rem;
+}
+
+.home-layout .recent-updates__link {
+  margin-top: 0.2rem;
+  font-size: 0.8rem;
+}
+
 @media (max-width: 900px) {
   .page__content > div[style*="grid-template-columns:minmax(0,1fr) minmax(220px,260px)"] {
     grid-template-columns: 1fr !important;
