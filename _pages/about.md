@@ -93,7 +93,7 @@ redirect_from:
   position: sticky;
   top: 1rem;
   justify-self: end;
-  transform: translateX(0.5rem);
+  transform: translateX(2.0rem);
   width: 100%;
   padding: 0.25rem 0 0;
   font-size: 0.9rem;
