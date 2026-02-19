@@ -26,7 +26,7 @@ My email address: <yong_zhang@tongji.edu.cn>.
 ## Timeline
 
 <div class="notice--primary" markdown="1">
-这里汇总了我主页上的最新动态与更新。
+This section provides an overview of recent updates and activities on my homepage.
 </div>
 
 {% assign timeline_posts = site.posts | sort: "date" | reverse %}
@@ -37,6 +37,6 @@ My email address: <yong_zhang@tongji.edu.cn>.
 {% endfor %}
 </ul>
 {% else %}
-<p>近期暂无更新，欢迎稍后再来查看。</p>
+<p>No recent updates at the moment. Please check back later.</p>
 {% endif %}
 
