@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-<div class="home-layout" style="display:grid;grid-template-columns:minmax(0,1fr) minmax(170px,210px);gap:0.9rem;align-items:start;">
+<div class="home-layout" style="display:grid;grid-template-columns:minmax(0,1fr) minmax(130px,165px);gap:0.75rem;align-items:start;">
   <div>
     <p style="font-size:1.05rem;margin-bottom:0.75rem;">
       <em>Knowing how to calculate something is not the same as understanding it.</em> — <span style="font-style:normal;">Frank Wilczek</span>
@@ -82,7 +82,7 @@ redirect_from:
       <li>
         <span class="recent-updates__dot recent-updates__dot--new"></span>
         <div class="recent-updates__date">2026-02-19</div>
-        <div class="recent-updates__title">New <a href="{{ '/notes/nonlocal-strain-measure/' | relative_url }}">note</a> published: Nonlocal strain measure</div>
+        <div class="recent-updates__title">New note published: <a href="{{ '/notes/nonlocal-strain-measure/' | relative_url }}">Nonlocal strain measure</a></div>
       </li>
     </ol>
   </aside>
@@ -92,6 +92,8 @@ redirect_from:
 .home-layout .recent-updates {
   position: sticky;
   top: 1rem;
+  justify-self: end;
+  width: 100%;
   padding: 0.25rem 0 0;
   font-size: 0.9rem;
 }
