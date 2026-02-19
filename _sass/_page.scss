@@ -399,3 +399,9 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+
+/* Homepage spacing tweak */
+body.homepage #main {
+  margin-top: 1em;
+}
