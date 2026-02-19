@@ -101,19 +101,36 @@ redirect_from:
 
 .home-layout .research-map-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 0.7rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.55rem;
+  grid-auto-rows: 1fr;
   align-items: stretch;
 }
 
 .home-layout .research-map-card {
   margin: 0;
-  padding: 0.9rem 1rem;
+  padding: 0.72rem 0.85rem;
   border-radius: 0.6rem;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-layout .research-map-card h3 {
+  margin: 0 0 0.32rem;
 }
 
 .home-layout .research-map-card ul {
+  margin: 0;
+  padding-left: 1.1rem;
+  line-height: 1.32;
+}
+
+.home-layout .research-map-card li {
+  margin-bottom: 0.1rem;
+}
+
+.home-layout .research-map-card li:last-child {
   margin-bottom: 0;
 }
 
@@ -199,6 +216,12 @@ redirect_from:
 @media (max-width: 900px) {
   .home-layout {
     grid-template-columns: 1fr !important;
+  }
+}
+
+@media (max-width: 680px) {
+  .home-layout .research-map-grid {
+    grid-template-columns: 1fr;
   }
 }
 </style>
