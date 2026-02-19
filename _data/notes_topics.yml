@@ -1,3 +1,32 @@
 - topic: "Nonlocal Mechanics"
   items:
-    - "Nonlocal strain measure"
+    - title: "Nonlocal strain measure"
+      url: "/notes/nonlocal-strain-measure/"
+    - "Integral-to-differential limit"
+    - "Configurational forces"
+
+- topic: "Peridynamics"
+  items:
+    - "State-based formulation"
+    - "Correspondence model"
+
+- topic: "PDDO / Generalized Operators"
+  items:
+    - "Polynomial reconstruction"
+    - "Weight functions"
+
+- topic: "Phase-field"
+  items:
+    - "Variational formulation"
+    - "Fracture"
+    - "Glass vs crystallization"
+
+- topic: "Mathematics"
+  items:
+    - "Variational principles"
+    - "Functional analysis notes"
+
+- topic: "AI / Computational Tools"
+  items:
+    - "MOOSE implementation"
+    - "Symbolic derivation workflows"
