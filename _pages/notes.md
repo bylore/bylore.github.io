@@ -5,8 +5,11 @@ layout: single
 author_profile: true
 ---
 
+This section contains structured technical notes, including derivations, theoretical connections, and research ideas across mechanics, mathematics, and related fields.
+
 {% for section in site.data.notes_topics %}
-# {{ section.topic }}
+<h2>{{ section.topic }}</h2>
+<hr />
 
 {% if section.items and section.items.size > 0 %}
 {% for item in section.items %}

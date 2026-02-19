@@ -59,14 +59,6 @@ I work on the mechanics of interface and defect evolution, with a focus on nonlo
   <a class="btn btn--primary" href="{{ '/cv/' | relative_url }}">CV</a>
 </div>
 
----
-
-## Notes
-
-This section contains structured technical notes, including derivations, theoretical connections, and research ideas across mechanics, mathematics, and related fields.
-
----
-
 ## Recent Updates
 
 {% for post in site.posts limit:5 %}
