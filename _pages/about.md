@@ -89,6 +89,12 @@ redirect_from:
 </div>
 
 <style>
+@media (min-width: 1280px) {
+  #main {
+    max-width: 1440px;
+  }
+}
+
 .home-layout .recent-updates {
   position: sticky;
   top: 1rem;
