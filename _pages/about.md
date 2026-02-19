@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: ""
+title: null
 layout: single
 author_profile: true
 redirect_from:
