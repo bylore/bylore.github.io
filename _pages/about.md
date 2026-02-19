@@ -71,28 +71,11 @@ redirect_from:
 
   <aside class="recent-updates">
     <h3>Recent Updates</h3>
-    <p class="recent-updates__subhead">Timeline (newest first)</p>
     <ol>
       <li>
         <span class="recent-updates__dot recent-updates__dot--new"></span>
         <div class="recent-updates__date">2026-02-19</div>
-        <div class="recent-updates__title">New note published: Nonlocal strain measure</div>
-        <div class="recent-updates__desc">A short update example for recent progress in learning, writing, or research.</div>
-        <details>
-          <summary>Show more</summary>
-          <p>Longer updates can be collapsed by default. Click to expand and read the full content directly from this timeline.</p>
-        </details>
-        <div class="recent-updates__link"><a href="{{ '/notes/nonlocal-strain-measure/' | relative_url }}">Open note</a></div>
-      </li>
-      <li>
-        <span class="recent-updates__dot"></span>
-        <div class="recent-updates__date">2024-09-24</div>
-        <div class="recent-updates__title">Homepage layout improved, and future updates will appear in this timeline.</div>
-      </li>
-      <li>
-        <span class="recent-updates__dot"></span>
-        <div class="recent-updates__date">2024-01-01</div>
-        <div class="recent-updates__title">Older updates will continue to be listed below.</div>
+        <div class="recent-updates__title">New <a href="{{ '/notes/nonlocal-strain-measure/' | relative_url }}">note</a> published: Nonlocal strain measure</div>
       </li>
     </ol>
   </aside>
