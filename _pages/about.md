@@ -7,6 +7,10 @@ redirect_from:
   - /about/
   - /about.html
 ---
+<p style="font-size:1.05rem;margin-bottom:0.75rem;">
+  <em>Knowing how to calculate something is not the same as understanding it.</em> — <span style="font-style:normal;">Frank Wilczek</span>
+</p>
+
 ## About
 
 I work on the mechanics of interface and defect evolution, with a focus on nonlocal theories and multiphysics coupling. My research integrates peridynamics, generalized nonlocal operators, phase-field methods, configurational forces with an emphasis on their variational structure and theoretical connections and also their engineering applications.
