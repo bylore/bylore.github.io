@@ -19,15 +19,15 @@ I work on the mechanics of interface and defect evolution, with a focus on nonlo
   <div class="notice--primary" style="margin:0;">
     <h3 style="margin-top:0;">Nonlocal Mechanics</h3>
     <ul>
-      <li>Peridynamics (bond-based, state-based, correspondence models)</li>
-      <li>Generalized nonlocal operators (PDDO, polynomial reconstruction)</li>
-      <li>Integral-to-differential connections via asymptotic expansion</li>
+      <li>Peridynamics</li>
+      <li>Nonlocal strain measure</li>
+      <li>Generalized nonlocal operators</li>
     </ul>
   </div>
   <div class="notice--info" style="margin:0;">
     <h3 style="margin-top:0;">Phase Field Methods</h3>
     <ul>
-      <li>Phase-field fracture</li>
+      <li>Phase Field fracture</li>
       <li>Microstructure evolution</li>
     </ul>
   </div>
