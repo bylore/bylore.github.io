@@ -8,6 +8,8 @@ redirect_from:
   - /about.html
 ---
 
+<div style="margin-top:-1rem;">
+
 ## About
 
 I work on the mechanics of interface and defect evolution, with a focus on nonlocal theories and multiphysics coupling. My research integrates peridynamics, generalized nonlocal operators, and phase-field methods, with an emphasis on their variational structure and theoretical connections.
@@ -73,3 +75,5 @@ This section contains structured technical notes, including derivations, theoret
 {% for post in site.posts limit:5 %}
 * [{{ post.title }}]({{ post.url | relative_url }})
 {% endfor %}
+
+</div>
