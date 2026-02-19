@@ -24,8 +24,8 @@ redirect_from:
     <hr />
 
     <h2>Research Map</h2>
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;">
-      <div class="notice--primary" style="margin:0;">
+    <div class="research-map-grid">
+      <div class="notice--primary research-map-card">
         <h3 style="margin-top:0;">Nonlocal Mechanics</h3>
         <ul>
           <li>Peridynamics</li>
@@ -33,18 +33,25 @@ redirect_from:
           <li>Generalized nonlocal operators</li>
         </ul>
       </div>
-      <div class="notice--info" style="margin:0;">
+      <div class="notice--info research-map-card">
         <h3 style="margin-top:0;">Phase Field Methods</h3>
         <ul>
           <li>Phase-field fracture</li>
           <li>Microstructure evolution</li>
         </ul>
       </div>
-      <div class="notice--success" style="margin:0;">
+      <div class="notice--success research-map-card">
         <h3 style="margin-top:0;">Configurational Forces</h3>
         <ul>
           <li>Variational structure of configurational forces</li>
           <li>Configurational forces in nonlocal systems</li>
+        </ul>
+      </div>
+      <div class="notice--warning research-map-card">
+        <h3 style="margin-top:0;">Interfaces &amp; Defects</h3>
+        <ul>
+          <li>Crack nucleation and propagation</li>
+          <li>Phase interface evolution in multiphysics systems</li>
         </ul>
       </div>
     </div>
@@ -87,6 +94,24 @@ redirect_from:
   top: 1rem;
   padding: 0.25rem 0 0;
   font-size: 0.9rem;
+}
+
+.home-layout .research-map-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.7rem;
+  align-items: stretch;
+}
+
+.home-layout .research-map-card {
+  margin: 0;
+  padding: 0.9rem 1rem;
+  border-radius: 0.6rem;
+  height: 100%;
+}
+
+.home-layout .research-map-card ul {
+  margin-bottom: 0;
 }
 
 .home-layout .recent-updates h3 {
