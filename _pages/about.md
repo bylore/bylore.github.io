@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-<div class="home-layout" style="display:grid;grid-template-columns:minmax(0,1fr) minmax(220px,260px);gap:1rem;align-items:start;">
+<div class="home-layout" style="display:grid;grid-template-columns:minmax(0,1fr) minmax(170px,210px);gap:0.9rem;align-items:start;">
   <div>
     <p style="font-size:1.05rem;margin-bottom:0.75rem;">
       <em>Knowing how to calculate something is not the same as understanding it.</em> — <span style="font-style:normal;">Frank Wilczek</span>
@@ -186,7 +186,7 @@ redirect_from:
 }
 
 @media (max-width: 900px) {
-  .page__content > div[style*="grid-template-columns:minmax(0,1fr) minmax(220px,260px)"] {
+  .home-layout {
     grid-template-columns: 1fr !important;
   }
 }
