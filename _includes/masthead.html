@@ -7,13 +7,20 @@
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+          {% assign current_page_url = page.url | replace: 'index.html', '' %}
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
               {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            {% assign is_active = false %}
+            {% if link.url == current_page_url %}
+              {% assign is_active = true %}
+            {% elsif link.url != '/' and current_page_url contains link.url %}
+              {% assign is_active = true %}
+            {% endif %}
+            <li class="masthead__menu-item{% if is_active %} masthead__menu-item--active{% endif %}"><a href="{{ domain }}{{ link.url }}"{% if is_active %} class="active" aria-current="page"{% endif %}>{{ link.title }}</a></li>
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>

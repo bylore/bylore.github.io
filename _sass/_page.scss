@@ -42,6 +42,9 @@
     margin-top: -0.5em;
   }
 }
+.page__header {
+  display: none;
+}
 
 .page__lead {
   font-family: $global-font-family;

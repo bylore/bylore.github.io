@@ -228,6 +228,16 @@
     a {
       position: relative;
 
+      &.active {
+        color: $masthead-link-color-hover;
+
+        &:before {
+          -webkit-transform: scaleX(1);
+              -ms-transform: scaleX(1);
+                  transform: scaleX(1);
+        }
+      }
+
       &:before {
         content: "";
         position: absolute;
