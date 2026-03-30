@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Generalized Nonlocal Operators",
+    "description": "Research on operator definitions, constitutive structure, and rigorous links between nonlocal and local continuum formulations.",
+    "link": "content/projects/generalized-nonlocal-operators.html"
+  },
+  {
+    "title": "Interfaces, Fracture, and Phase-Field Methods",
+    "description": "Computational and theoretical studies of interface evolution, fracture, and coupled phase-field descriptions in solid materials.",
+    "link": "content/projects/interfaces-fracture-phase-field.html"
+  }
+]

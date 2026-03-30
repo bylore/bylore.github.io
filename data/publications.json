@@ -1,0 +1,72 @@
+﻿[
+  {
+    "id": "jumping-dielectric-breakdown-ferroelectric-phase-field",
+    "title": "The jumping dielectric breakdown behavior induced by crack propagation in ferroelectric materials: A phase field study",
+    "authors": "Yong Zhang, Jie Wang, Tong-Yi Zhang",
+    "journal": "Journal of the Mechanics and Physics of Solids",
+    "year": 2022,
+    "tags": ["Phase Field Modeling", "Configurational Forces", "Ferroelectrics"],
+    "abstract": "Ferroelectric materials often experience fracture and dielectric breakdown under large mechanical and electrical loads. This study predicts a new type of jumping dielectric breakdown during crack propagation in ferroelectric materials using a phase field model involving multiple order parameters. The driving forces for the evolution of polarization, fracture, and dielectric breakdown are analyzed based on configurational forces, and the breakdown pattern is shown to depend strongly on polarization domain structure, applied electric field, and crack boundary conditions.",
+    "doi": "https://doi.org/10.1016/j.jmps.2022.105088"
+  },
+  {
+    "id": "phase-field-coupling-fracture-dielectric-breakdown-ferroelectrics",
+    "title": "Phase field modeling of coupling evolution of fracture and dielectric breakdown in ferroelectric materials",
+    "authors": "Yong Zhang, Jiajun Sun, Chang Liu, Xu Hou, Jie Wang",
+    "journal": "International Journal of Mechanical Sciences",
+    "year": 2022,
+    "tags": ["Phase Field Modeling", "Configurational Forces", "Ferroelectrics"],
+    "abstract": "Ferroelectric materials may undergo fracture and dielectric breakdown simultaneously under combined mechanical and electrical loading. This work develops a phase field model with multiple order parameters to capture the coupled evolution of polarization, fracture, and dielectric breakdown. Generalized configurational forces are derived to analyze the driving forces of fracture and breakdown, revealing how electrical treeing and crack propagation interact in ferroelectric materials.",
+    "doi": "https://doi.org/10.1016/j.ijmecsci.2022.107747"
+  },
+  {
+    "id": "axisymmetric-osb-peridynamics-thermal-cracking",
+    "title": "An axisymmetric ordinary state-based peridynamic model for thermal cracking of linear elastic solids",
+    "authors": "Zhihui Yang, Yong Zhang, Pizhong Qiao",
+    "journal": "Theoretical and Applied Fracture Mechanics",
+    "year": 2021,
+    "tags": ["Peridynamics"],
+    "abstract": "This paper proposes an axisymmetric ordinary state-based peridynamic model considering thermal expansion for temperature-induced cracking of linear elastic solids. The force state and bond failure criterion are established in an axisymmetric setting, and the model is validated through cold-induced fracture examples in cracked pipes and layered pipe systems.",
+    "doi": "https://doi.org/10.1016/j.tafmec.2020.102888"
+  },
+  {
+    "id": "fully-discrete-peridynamic-tensile-fracture-composites",
+    "title": "A fully-discrete peridynamic modeling approach for tensile fracture of fiber-reinforced cementitious composites",
+    "authors": "Yong Zhang, Pizhong Qiao",
+    "journal": "Engineering Fracture Mechanics",
+    "year": 2021,
+    "tags": ["Peridynamics"],
+    "abstract": "This study develops a fully discrete peridynamic modeling approach for tensile fracture in fiber-reinforced cementitious composites. The matrix, fibers, and fiber-matrix interface are modeled within a unified peridynamic framework, enabling simulations of pull-out and direct tension tests that capture crack evolution and reinforcement effects.",
+    "doi": "https://doi.org/10.1016/j.engfracmech.2020.107454"
+  },
+  {
+    "id": "peridynamic-axisymmetric-pull-out-tests",
+    "title": "Peridynamic simulation of two-dimensional axisymmetric pull-out tests",
+    "authors": "Yong Zhang, Pizhong Qiao",
+    "journal": "International Journal of Solids and Structures",
+    "year": 2019,
+    "tags": ["Peridynamics"],
+    "abstract": "This study presents a systematic pull-out simulation scheme in a two-dimensional axisymmetric domain using peridynamics. It combines an axisymmetric ordinary state-based peridynamic model, an interfacial debonding criterion based on bond energy density, and a new contact-friction model to reproduce deformation, debonding, and frictional sliding during pull-out.",
+    "doi": "https://doi.org/10.1016/j.ijsolstr.2019.03.014"
+  },
+  {
+    "id": "bond-failure-criterion-mode-ii-peridynamics",
+    "title": "A new bond failure criterion for ordinary state-based peridynamic mode II fracture analysis",
+    "authors": "Yong Zhang, Pizhong Qiao",
+    "journal": "International Journal of Fracture",
+    "year": 2019,
+    "tags": ["Peridynamics"],
+    "abstract": "This work introduces a new bond failure criterion for ordinary state-based peridynamics aimed at mode II fracture analysis. The criterion improves the treatment of shear-dominated crack growth and expands the applicability of nonlocal fracture simulation to mixed and sliding fracture problems.",
+    "doi": "https://doi.org/10.1007/s10704-018-00341-x"
+  },
+  {
+    "id": "axisymmetric-osb-peridynamics-linear-elasticity",
+    "title": "An axisymmetric ordinary state-based peridynamic model for linear elastic solids",
+    "authors": "Yong Zhang, Pizhong Qiao",
+    "journal": "Computer Methods in Applied Mechanics and Engineering",
+    "year": 2018,
+    "tags": ["Peridynamics"],
+    "abstract": "This study presents a new axisymmetric ordinary state-based peridynamic model for axisymmetric problems of linear elastic solids. A fracture criterion based on bond energy density is proposed, and the model is demonstrated through compression, pull-out deformation, and indentation fracture problems.",
+    "doi": "https://doi.org/10.1016/j.cma.2018.07.009"
+  }
+]

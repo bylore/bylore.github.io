@@ -1,0 +1,17 @@
+{
+  "name": "Yong Zhang",
+  "title": "Assistant Professor",
+  "affiliation": "Tongji University, Shanghai",
+  "email": "yong_zhang@tongji.edu.cn",
+  "photo": "images/profile-20240823-1.png",
+  "photo_alt": "Portrait of Yong Zhang",
+  "bio": "Yong Zhang studies interface and defect evolution in solid mechanics, with emphasis on nonlocal theories, multiphysics coupling, and variational structure.",
+  "scholar": "https://scholar.google.com/citations?user=NM0cl0EAAAAJ&hl=zh-TW",
+  "github": "https://github.com/bylore",
+  "research_interests": [
+    "Peridynamics and generalized nonlocal operators",
+    "Interfaces, defects, and fracture in solid materials",
+    "Phase-field methods for coupled evolution problems",
+    "Variational structure and theory-computation connections"
+  ]
+}
